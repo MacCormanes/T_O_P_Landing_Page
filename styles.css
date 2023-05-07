@@ -1,0 +1,175 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    padding-left: auto;
+    background-color: #1f2937;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px; 
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1f2937;
+    height: 50px;
+    width: 1000px;
+    margin: auto;
+}
+
+.logo {
+    font-size: 15px;
+    color: #F9FAF8;
+}
+
+.right-header {
+    display: flex;
+    gap: 30px;
+}
+
+.right-header a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.platform {
+    background-color: #1f2937;
+    height: 400px;
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.platform-right {
+    width: 500px;
+    height: auto;
+}
+
+.platform h1, .platform p {
+    color: #f9faf8;
+}
+
+.platform h1 {
+    font-size: 45px;
+}
+
+.platform button {
+    padding: 8px 30px 8px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #3882f6;
+    color: white;
+}
+
+.div2 {
+    background-color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.div2 h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.cards ul {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul p {
+    margin: 0px;
+    width: 150px;
+    height: auto;
+}
+
+.div3 {
+    background-color: #e5e7eb;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.inner-div3 p, .inner-div3 h3 {
+    width: 700px;
+    height: auto;
+}
+
+.inner-div3 h3 {
+    text-align: right;
+}
+
+.inner-div3 p {
+    text-align: justify;
+    font-size: 30px;
+}
+
+.div4 {
+    background-color: white;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-div4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 900px;
+    background-color: #3882f6;
+    padding: 50px;
+    border-width: 30px;
+    border-radius: 30px;
+}
+
+.inner-div4 h4, .inner-div4 p{
+    color: white;
+    margin: 0px;
+    width: 600px;
+}
+
+.inner-div4 h4 {
+    font-size: 20px;
+}
+
+.inner-div4 button {
+    background-color: #3882f6;
+    padding: 5px 30px 5px 30px;
+    border-color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h5 {
+    color: white;
+}
